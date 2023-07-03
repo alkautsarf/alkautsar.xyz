@@ -81,6 +81,9 @@ export default function PostPage() {
           informed decisions.
           <br />
           <br />
+          Tech stack: Vue.js, Express.js, PostgreSQL, web3.js, blockNative SDK
+          <br />
+          <br />
           <span className="text-bold italic">
             Note: This app is currently running on the Goerli testnet.
           </span>
