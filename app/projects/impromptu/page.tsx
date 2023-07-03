@@ -3,7 +3,6 @@ import { Header } from "./header";
 import "./mdx.css";
 import { ReportView } from "./view";
 
-
 export default function PostPage() {
   const project = {
     // url: "https://alkautsar.xyz/projects/impromtu",
@@ -27,7 +26,7 @@ export default function PostPage() {
 
       <article className="px-4 py-12 mx-auto prose prose-zinc prose-quoteless">
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-        <img
+          <img
             src="/impromptu.png"
             alt="test.png"
             className="rounded-md border border-zinc-200"
@@ -96,7 +95,17 @@ export default function PostPage() {
           of discovery.
           <br />
           <br />
-          <span className="text-bold italic">Note: This app is under maintenance and not available online</span>
+          Tech stack:
+          <br />
+          - Frontend = React.js, Next.js, Zustand, React Spring (for parallax
+          and animation)
+          <br />
+          - Backend = Express.js, MongoDB, ChatGPT API, Talk JS
+          <br />
+          <br />
+          <span className="text-bold italic">
+            Note: This app is under maintenance and currently not available online
+          </span>
         </p>
       </article>
     </div>
