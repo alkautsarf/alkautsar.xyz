@@ -1,6 +1,6 @@
 # alkautsar.xyz
 
-A personal website that showcase my portfolio and projects.
+A personal website that showcase my portfolio and projects. Forked from [chronark.com](https://chronark.com)
 
 **Tech stack:** Next.js, Tailwind CSS
 
